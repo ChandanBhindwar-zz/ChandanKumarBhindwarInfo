@@ -1,0 +1,37 @@
+.micon {
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 35px;
+    background-color: orange;
+    color: blue;
+    width: 65px;
+}
+
+.micon:hover {
+    background-color: blue;
+    color: orange;
+}
+
+.faceBook {
+    text-align: center;
+    /* animation-name: example;
+    animation-duration: 4s; */
+}
+.footer {
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+ }
+
+@keyframes example {
+    from {
+        text-align: left;
+    }
+    to {
+        text-align: right;
+    }
+}

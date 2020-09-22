@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{ overflow-x: hidden; max-width: 100%}
+
+.myHeader{
+    position: relative;
+    animation: myHeader;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes myHeader {
+    0% {
+        right: -900px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+
+.myHeader2{
+    position: relative;
+    animation: myHeader2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes myHeader2 {
+    0% {
+        left: -900px;
+    }
+    100% {
+        left: 0px;
+    }
+}
